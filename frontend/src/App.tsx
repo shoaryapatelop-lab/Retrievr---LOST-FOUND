@@ -10,7 +10,7 @@ import ReportLost from './pages/ReportLost'
 import ReportFound from './pages/ReportFound'
 import ItemDetail from './pages/ItemDetail'
 import SearchResults from './pages/SearchResults'
-import UserDashboard from './pages/UserDashboard'
+import MainDashboard from './pages/MainDashboard'
 import AdminDashboard from './pages/AdminDashboard'
 import Profile from './pages/Profile'
 import { ReactNode } from 'react'
@@ -62,7 +62,7 @@ function App() {
               <Route path="/search" element={<SearchResults />} />
               <Route path="/dashboard" element={
                 <PrivateRoute>
-                  <UserDashboard />
+                  <MainDashboard />
                 </PrivateRoute>
               } />
               <Route path="/admin" element={

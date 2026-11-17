@@ -26,7 +26,7 @@ public class FileStorageServiceImpl implements FileStorageService {
 
     private final Path fileStorageLocation;
 
-    public FileStorageServiceImpl(@Value("${app.upload.dir:uploads}") String uploadDir) throws IOException {
+    public FileStorageServiceImpl(@Value("${app.upload.dir:../uploads}") String uploadDir) throws IOException {
         this.fileStorageLocation = Paths.get(uploadDir).toAbsolutePath().normalize();
         Files.createDirectories(this.fileStorageLocation);
     }

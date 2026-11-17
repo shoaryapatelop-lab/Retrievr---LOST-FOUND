@@ -2,6 +2,8 @@ package com.retriever.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.Inheritance;
 import jakarta.persistence.InheritanceType;
 import jakarta.persistence.JoinColumn;
@@ -72,4 +74,9 @@ public abstract class Item extends BaseEntity {
     @ManyToOne
     @JoinColumn(name = "category_id")
     private Category category;
+
+    @NotNull(message = "Import source is required")
+    @Enumerated(EnumType.STRING)
+    @Column(name = "import_source", nullable = false, length = 20)
+    private ImportSource importSource = ImportSource.MANUAL;
 }

@@ -44,7 +44,7 @@ logging:
 
 app:
   upload:
-    dir: ${UPLOAD_DIR:uploads}
+    dir: ${UPLOAD_DIR:../uploads}
   matching:
     weights:
       name: 25

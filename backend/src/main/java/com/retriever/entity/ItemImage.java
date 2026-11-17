@@ -44,6 +44,9 @@ public class ItemImage extends BaseEntity {
     @Column(name = "content_type", length = 100)
     private String contentType;
 
+    @Column(name = "file_hash", length = 64)
+    private String fileHash;
+
     @Column(name = "is_primary", nullable = false)
     private Boolean isPrimary = false;
 }

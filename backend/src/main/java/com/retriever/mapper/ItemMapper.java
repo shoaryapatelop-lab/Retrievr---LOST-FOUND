@@ -8,7 +8,9 @@ import com.retriever.repository.ItemImageRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Component
 @RequiredArgsConstructor
@@ -17,9 +19,26 @@ public class ItemMapper {
 
     public ItemResponse toResponse(Item item) {
         if (item == null) return null;
+        
+        // Primary: Get images from ItemImage table (new system)
         List<String> imageUrls = itemImageRepository.findByItemId(item.getId()).stream()
                 .map(img -> img.getImageUrl())
-                .toList();
+                .collect(Collectors.toList());
+        
+        // Fallback: For FoundItems, also check the legacy imageUrls field
+        if (imageUrls.isEmpty() && item instanceof FoundItem foundItem) {
+            String legacyUrls = foundItem.getImageUrls();
+            if (legacyUrls != null && !legacyUrls.isBlank()) {
+                // Support comma-separated or single URLs
+                for (String url : legacyUrls.split(",")) {
+                    String trimmed = url.trim();
+                    if (!trimmed.isEmpty()) {
+                        imageUrls.add(trimmed);
+                    }
+                }
+            }
+        }
+        
         return ItemResponse.builder()
                 .id(item.getId())
                 .title(item.getTitle())

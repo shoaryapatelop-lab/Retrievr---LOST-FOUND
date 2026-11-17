@@ -1,0 +1,171 @@
+- generic [ref=f5e3]:
+  - banner [ref=f5e4]:
+    - generic [ref=f5e6]:
+      - paragraph [ref=f5e7]: Lost something? Let's bring it back.
+      - navigation [ref=f5e8]:
+        - link "Report Lost" [ref=f5e9] [cursor=pointer]:
+          - /url: /report/lost
+        - link "Report Found" [ref=f5e10] [cursor=pointer]:
+          - /url: /report/found
+        - link "Browse Items" [ref=f5e11] [cursor=pointer]:
+          - /url: /search
+        - link "Admin" [ref=f5e12] [cursor=pointer]:
+          - /url: /admin
+    - generic [ref=f5e16]:
+      - generic [ref=f5e17]:
+        - link "R Retrievr" [ref=f5e18] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f5e19]: R
+          - generic [ref=f5e20]: Retrievr
+        - search [ref=f5e21]:
+          - generic [ref=f5e22]:
+            - combobox "Filter by category" [ref=f5e24]:
+              - option "All" [selected]
+              - option "Electronics"
+              - option "Documents"
+              - option "Accessories"
+              - option "Clothing"
+              - option "Bags"
+              - option "Keys"
+              - option "Other Items"
+            - textbox "Search items" [ref=f5e29]:
+              - /placeholder: Search lost or found items, brands, places…
+            - button "Search" [ref=f5e30] [cursor=pointer]
+        - generic [ref=f5e31]:
+          - button "Report item" [ref=f5e33] [cursor=pointer]
+          - link "Notifications" [ref=f5e38] [cursor=pointer]:
+            - /url: /dashboard
+          - button "P Priya" [ref=f5e43] [cursor=pointer]:
+            - generic [ref=f5e44]: P
+            - generic [ref=f5e45]: Priya
+      - generic [ref=f5e49]:
+        - link "All Items" [ref=f5e50] [cursor=pointer]:
+          - /url: /search
+        - button "Electronics" [ref=f5e52] [cursor=pointer]
+        - button "Documents" [ref=f5e53] [cursor=pointer]
+        - button "Accessories" [ref=f5e54] [cursor=pointer]
+        - button "Clothing" [ref=f5e55] [cursor=pointer]
+        - button "Bags" [ref=f5e56] [cursor=pointer]
+        - button "Keys" [ref=f5e57] [cursor=pointer]
+        - button "Other Items" [ref=f5e58] [cursor=pointer]
+  - main [ref=f5e59]:
+    - generic [ref=f5e143]:
+      - link "Back to dashboard" [ref=f5e144] [cursor=pointer]:
+        - /url: /dashboard
+      - generic [ref=f5e147]:
+        - heading "Profile settings" [level=1] [ref=f5e148]
+        - paragraph [ref=f5e149]: Manage your account details and preferences.
+      - generic [ref=f5e150]:
+        - generic [ref=f5e153]:
+          - generic [ref=f5e154]:
+            - generic [ref=f5e155]: P
+            - generic [ref=f5e156]: ADMIN
+          - generic [ref=f5e160]:
+            - paragraph [ref=f5e161]: Priya Nair
+            - paragraph [ref=f5e162]: admin@retrievr.com
+        - generic [ref=f5e163]:
+          - heading "Personal information" [level=2] [ref=f5e164]
+          - generic [ref=f5e168]:
+            - generic [ref=f5e169]:
+              - generic [ref=f5e170]: First name
+              - textbox "First name" [ref=f5e171]: Priya
+            - generic [ref=f5e172]:
+              - generic [ref=f5e173]: Last name
+              - textbox "Last name" [ref=f5e174]: Nair
+            - generic [ref=f5e175]:
+              - generic [ref=f5e176]: Email
+              - textbox "Email" [disabled] [ref=f5e178]: admin@retrievr.com
+              - paragraph [ref=f5e179]: Email address cannot be changed.
+        - generic [ref=f5e180]:
+          - heading "Staff details" [level=2] [ref=f5e181]
+          - generic [ref=f5e186]:
+            - generic [ref=f5e187]:
+              - generic [ref=f5e188]: Employee ID
+              - textbox "Employee ID" [disabled] [ref=f5e190]: ADMIN001
+            - generic [ref=f5e191]:
+              - generic [ref=f5e192]: Department
+              - textbox "Department" [ref=f5e194]:
+                - /placeholder: Your department
+                - text: Examination Cell
+        - generic [ref=f5e195]:
+          - button "Log out" [ref=f5e196] [cursor=pointer]
+          - generic [ref=f5e200]:
+            - generic [ref=f5e201]: Saved
+            - button "Save changes" [ref=f5e205] [cursor=pointer]
+        - link "Open admin panel Go →" [ref=f5e210] [cursor=pointer]:
+          - /url: /admin
+          - generic [ref=f5e211]: Open admin panel
+          - generic [ref=f5e215]: Go →
+  - contentinfo [ref=f5e62]:
+    - generic [ref=f5e63]:
+      - generic [ref=f5e64]:
+        - generic [ref=f5e65]:
+          - link "R Retrievr" [ref=f5e66] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f5e67]: R
+            - generic [ref=f5e68]: Retrievr
+          - paragraph [ref=f5e69]: A smarter Lost & Found marketplace. Report belongings, discover found items, and reconnect with what's yours.
+          - generic [ref=f5e70]:
+            - link "Instagram" [ref=f5e71] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Email" [ref=f5e75] [cursor=pointer]:
+              - /url: mailto:support@retrievr.app
+        - generic [ref=f5e79]:
+          - heading "Quick Links" [level=3] [ref=f5e80]
+          - list [ref=f5e81]:
+            - listitem [ref=f5e82]:
+              - link "Report Lost Item" [ref=f5e83] [cursor=pointer]:
+                - /url: /report/lost
+            - listitem [ref=f5e84]:
+              - link "Report Found Item" [ref=f5e85] [cursor=pointer]:
+                - /url: /report/found
+            - listitem [ref=f5e86]:
+              - link "Browse Items" [ref=f5e87] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=f5e88]:
+              - link "My Dashboard" [ref=f5e89] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f5e90]:
+              - link "Account" [ref=f5e91] [cursor=pointer]:
+                - /url: /profile
+        - generic [ref=f5e92]:
+          - heading "Categories" [level=3] [ref=f5e93]
+          - list [ref=f5e94]:
+            - listitem [ref=f5e95]:
+              - link "Electronics" [ref=f5e96] [cursor=pointer]:
+                - /url: /search?category=Electronics
+            - listitem [ref=f5e97]:
+              - link "Documents" [ref=f5e98] [cursor=pointer]:
+                - /url: /search?category=Documents
+            - listitem [ref=f5e99]:
+              - link "Accessories" [ref=f5e100] [cursor=pointer]:
+                - /url: /search?category=Accessories
+            - listitem [ref=f5e101]:
+              - link "Clothing" [ref=f5e102] [cursor=pointer]:
+                - /url: /search?category=Clothing
+            - listitem [ref=f5e103]:
+              - link "Bags" [ref=f5e104] [cursor=pointer]:
+                - /url: /search?category=Bags
+            - listitem [ref=f5e105]:
+              - link "Keys" [ref=f5e106] [cursor=pointer]:
+                - /url: /search?category=Keys
+        - generic [ref=f5e107]:
+          - heading "Get in Touch" [level=3] [ref=f5e108]
+          - list [ref=f5e109]:
+            - listitem [ref=f5e110]: support@retrievr.app
+            - listitem [ref=f5e114]: Main Campus, Student Union
+          - generic [ref=f5e118]:
+            - generic [ref=f5e119]: Verified claims
+            - generic [ref=f5e123]: Reunite & reuse
+      - generic [ref=f5e131]:
+        - paragraph [ref=f5e132]: © 2026 Retrievr. All rights reserved.
+        - generic [ref=f5e133]:
+          - link "About" [ref=f5e134] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=f5e135] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy" [ref=f5e136] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f5e137] [cursor=pointer]:
+            - /url: /terms
+          - generic [ref=f5e138]: Lost & Found, reimagined

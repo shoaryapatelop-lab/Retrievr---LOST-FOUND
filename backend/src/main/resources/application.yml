@@ -1,0 +1,58 @@
+spring:
+  application:
+    name: retrievr
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/lostfound_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata&characterEncoding=utf8}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-version: 4
+    locations: classpath:db/migration
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB
+
+server:
+  port: ${SERVER_PORT:8080}
+
+jwt:
+  secret: ${JWT_SECRET}
+  expiration: ${JWT_EXPIRATION:86400000}
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+
+logging:
+  level:
+    com.retriever: INFO
+    org.springframework.web: INFO
+
+app:
+  upload:
+    dir: ${UPLOAD_DIR:uploads}
+  matching:
+    weights:
+      name: 25
+      category: 20
+      color: 10
+      brand: 10
+      description: 15
+      location: 10
+      date: 10
+    threshold: 30
+    max-candidates: 100

@@ -1,0 +1,209 @@
+- generic [ref=f13e3]:
+  - banner [ref=f13e4]:
+    - generic [ref=f13e6]:
+      - paragraph [ref=f13e7]: Lost something? Let's bring it back.
+      - navigation [ref=f13e8]:
+        - link "Report Lost" [ref=f13e9] [cursor=pointer]:
+          - /url: /report/lost
+        - link "Report Found" [ref=f13e10] [cursor=pointer]:
+          - /url: /report/found
+        - link "Browse Items" [ref=f13e11] [cursor=pointer]:
+          - /url: /search
+        - link "Admin" [ref=f13e12] [cursor=pointer]:
+          - /url: /admin
+    - generic [ref=f13e16]:
+      - generic [ref=f13e17]:
+        - link "R Retrievr" [ref=f13e18] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f13e19]: R
+          - generic [ref=f13e20]: Retrievr
+        - search [ref=f13e21]:
+          - generic [ref=f13e22]:
+            - combobox "Filter by category" [ref=f13e24]:
+              - option "All" [selected]
+              - option "Electronics"
+              - option "Documents"
+              - option "Accessories"
+              - option "Clothing"
+              - option "Bags"
+              - option "Keys"
+              - option "Other Items"
+            - textbox "Search items" [ref=f13e29]:
+              - /placeholder: Search lost or found items, brands, places…
+            - button "Search" [ref=f13e30] [cursor=pointer]
+        - generic [ref=f13e31]:
+          - button "Report item" [ref=f13e33] [cursor=pointer]
+          - link "Notifications" [ref=f13e38] [cursor=pointer]:
+            - /url: /dashboard
+          - button "P Priya" [ref=f13e43] [cursor=pointer]:
+            - generic [ref=f13e44]: P
+            - generic [ref=f13e45]: Priya
+      - generic [ref=f13e49]:
+        - link "All Items" [ref=f13e50] [cursor=pointer]:
+          - /url: /search
+        - button "Electronics" [ref=f13e52] [cursor=pointer]
+        - button "Documents" [ref=f13e53] [cursor=pointer]
+        - button "Accessories" [ref=f13e54] [cursor=pointer]
+        - button "Clothing" [ref=f13e55] [cursor=pointer]
+        - button "Bags" [ref=f13e56] [cursor=pointer]
+        - button "Keys" [ref=f13e57] [cursor=pointer]
+        - button "Other Items" [ref=f13e58] [cursor=pointer]
+  - main [ref=f13e59]:
+    - generic [ref=f13e143]:
+      - generic [ref=f13e144]:
+        - generic [ref=f13e145]:
+          - heading "Admin dashboard" [level=1] [ref=f13e146]
+          - paragraph [ref=f13e147]: Monitor activity, moderate reports and approve claims across Retrievr.
+        - link "View site" [ref=f13e149] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f13e150]:
+        - complementary [ref=f13e151]:
+          - generic [ref=f13e152]:
+            - generic [ref=f13e154]:
+              - generic [ref=f13e155]: P
+              - generic [ref=f13e156]:
+                - paragraph [ref=f13e157]: Priya Nair
+                - paragraph [ref=f13e158]: Administrator
+            - navigation [ref=f13e159]:
+              - list [ref=f13e160]:
+                - listitem [ref=f13e161]:
+                  - button "Overview" [active] [ref=f13e162] [cursor=pointer]
+                - listitem [ref=f13e169]:
+                  - button "Users 3" [ref=f13e170] [cursor=pointer]:
+                    - generic [ref=f13e171]:
+                      - text: Users
+                      - generic [ref=f13e177]: "3"
+                - listitem [ref=f13e178]:
+                  - button "Items 10" [ref=f13e179] [cursor=pointer]:
+                    - generic [ref=f13e180]:
+                      - text: Items
+                      - generic [ref=f13e185]: "10"
+                - listitem [ref=f13e186]:
+                  - button "Claims" [ref=f13e187] [cursor=pointer]
+            - generic [ref=f13e193]:
+              - link "Profile settings" [ref=f13e194] [cursor=pointer]:
+                - /url: /profile
+              - link "Back to site" [ref=f13e195] [cursor=pointer]:
+                - /url: /
+        - main [ref=f13e196]:
+          - generic [ref=f13e197]:
+            - generic [ref=f13e198]:
+              - paragraph [ref=f13e206]: "3"
+              - paragraph [ref=f13e207]: Total users
+            - generic [ref=f13e208]:
+              - paragraph [ref=f13e217]: "4"
+              - paragraph [ref=f13e218]: Lost items
+            - generic [ref=f13e219]:
+              - paragraph [ref=f13e226]: "6"
+              - paragraph [ref=f13e227]: Found items
+            - generic [ref=f13e228]:
+              - paragraph [ref=f13e233]: "0"
+              - paragraph [ref=f13e234]: Pending claims
+          - generic [ref=f13e236]:
+            - generic [ref=f13e237]:
+              - generic [ref=f13e248]:
+                - heading "Item distribution" [level=2] [ref=f13e249]
+                - paragraph [ref=f13e250]: Lost vs found reports across the platform.
+                - generic [ref=f13e254]:
+                  - generic [ref=f13e255]:
+                    - paragraph [ref=f13e256]: Lost
+                    - paragraph [ref=f13e258]: "4"
+                  - generic [ref=f13e259]:
+                    - paragraph [ref=f13e260]: Found
+                    - paragraph [ref=f13e262]: "6"
+              - generic [ref=f13e263]:
+                - heading "Claims overview" [level=2] [ref=f13e264]
+                - paragraph [ref=f13e265]: Resolution status across all claims.
+                - list [ref=f13e266]:
+                  - listitem [ref=f13e267]:
+                    - generic [ref=f13e268]: Total claims
+                    - generic [ref=f13e272]: "3"
+                  - listitem [ref=f13e273]:
+                    - generic [ref=f13e274]: Resolved
+                    - generic [ref=f13e278]: "2"
+                  - listitem [ref=f13e279]:
+                    - generic [ref=f13e280]: Returned items
+                    - generic [ref=f13e288]: "1"
+                  - listitem [ref=f13e289]:
+                    - generic [ref=f13e290]: Available items
+                    - generic [ref=f13e295]: "8"
+            - generic [ref=f13e296]:
+              - generic [ref=f13e297]:
+                - heading "Awaiting review" [level=2] [ref=f13e298]
+                - button "View all" [ref=f13e299] [cursor=pointer]
+              - generic [ref=f13e300]:
+                - heading "No pending claims" [level=3] [ref=f13e305]
+                - paragraph [ref=f13e306]: New claims will appear here for review.
+  - contentinfo [ref=f13e62]:
+    - generic [ref=f13e63]:
+      - generic [ref=f13e64]:
+        - generic [ref=f13e65]:
+          - link "R Retrievr" [ref=f13e66] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f13e67]: R
+            - generic [ref=f13e68]: Retrievr
+          - paragraph [ref=f13e69]: A smarter Lost & Found marketplace. Report belongings, discover found items, and reconnect with what's yours.
+          - generic [ref=f13e70]:
+            - link "Instagram" [ref=f13e71] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Email" [ref=f13e75] [cursor=pointer]:
+              - /url: mailto:support@retrievr.app
+        - generic [ref=f13e79]:
+          - heading "Quick Links" [level=3] [ref=f13e80]
+          - list [ref=f13e81]:
+            - listitem [ref=f13e82]:
+              - link "Report Lost Item" [ref=f13e83] [cursor=pointer]:
+                - /url: /report/lost
+            - listitem [ref=f13e84]:
+              - link "Report Found Item" [ref=f13e85] [cursor=pointer]:
+                - /url: /report/found
+            - listitem [ref=f13e86]:
+              - link "Browse Items" [ref=f13e87] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=f13e88]:
+              - link "My Dashboard" [ref=f13e89] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f13e90]:
+              - link "Account" [ref=f13e91] [cursor=pointer]:
+                - /url: /profile
+        - generic [ref=f13e92]:
+          - heading "Categories" [level=3] [ref=f13e93]
+          - list [ref=f13e94]:
+            - listitem [ref=f13e95]:
+              - link "Electronics" [ref=f13e96] [cursor=pointer]:
+                - /url: /search?category=Electronics
+            - listitem [ref=f13e97]:
+              - link "Documents" [ref=f13e98] [cursor=pointer]:
+                - /url: /search?category=Documents
+            - listitem [ref=f13e99]:
+              - link "Accessories" [ref=f13e100] [cursor=pointer]:
+                - /url: /search?category=Accessories
+            - listitem [ref=f13e101]:
+              - link "Clothing" [ref=f13e102] [cursor=pointer]:
+                - /url: /search?category=Clothing
+            - listitem [ref=f13e103]:
+              - link "Bags" [ref=f13e104] [cursor=pointer]:
+                - /url: /search?category=Bags
+            - listitem [ref=f13e105]:
+              - link "Keys" [ref=f13e106] [cursor=pointer]:
+                - /url: /search?category=Keys
+        - generic [ref=f13e107]:
+          - heading "Get in Touch" [level=3] [ref=f13e108]
+          - list [ref=f13e109]:
+            - listitem [ref=f13e110]: support@retrievr.app
+            - listitem [ref=f13e114]: Main Campus, Student Union
+          - generic [ref=f13e118]:
+            - generic [ref=f13e119]: Verified claims
+            - generic [ref=f13e123]: Reunite & reuse
+      - generic [ref=f13e131]:
+        - paragraph [ref=f13e132]: © 2026 Retrievr. All rights reserved.
+        - generic [ref=f13e133]:
+          - link "About" [ref=f13e134] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=f13e135] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy" [ref=f13e136] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f13e137] [cursor=pointer]:
+            - /url: /terms
+          - generic [ref=f13e138]: Lost & Found, reimagined

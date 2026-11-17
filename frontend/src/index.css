@@ -1,0 +1,265 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================================================
+   Retrievr design system
+   Tokens live in tailwind.config.js. This file holds the shared primitives:
+   layout, buttons, cards, forms, badges, motion helpers and a11y affordances.
+   ========================================================================= */
+
+@layer base {
+  :root {
+    --ring-color: 46 91 255; /* primary-500 */
+    --ease-snap: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-canvas text-ink-900 font-sans antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "ss01";
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5 {
+    @apply font-display tracking-tight text-ink-900;
+  }
+
+  /* Visible, consistent keyboard focus for accessibility */
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-canvas;
+  }
+
+  /* Slim, calm scrollbars */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #94a3b8;
+    background-clip: content-box;
+  }
+}
+
+@layer components {
+  /* Layout ------------------------------------------------------------- */
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-narrow {
+    @apply mx-auto w-full max-w-3xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-14 sm:py-16 lg:py-24;
+  }
+
+  .section-tight {
+    @apply py-10 sm:py-12 lg:py-16;
+  }
+
+  .section-title {
+    @apply font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-ink-900 tracking-tight;
+  }
+
+  .section-subtitle {
+    @apply mt-3 text-base sm:text-lg text-gray-600 max-w-2xl;
+  }
+
+  /* Section heading block (eyebrow + title + subtitle) ------------------ */
+  .section-head {
+    @apply flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.14em] text-primary-700;
+  }
+
+  /* Buttons ------------------------------------------------------------ */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold
+           transition-all duration-200 ease-snap focus-visible:outline-none focus-visible:ring-2
+           focus-visible:ring-primary-500 focus-visible:ring-offset-2 disabled:opacity-50
+           disabled:pointer-events-none select-none whitespace-nowrap;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary-600 text-white shadow-btn hover:bg-primary-700 hover:-translate-y-px
+           active:translate-y-0 active:scale-[0.98];
+  }
+
+  .btn-accent {
+    @apply btn bg-accent-500 text-ink-900 shadow-btn hover:bg-accent-400 hover:-translate-y-px
+           active:translate-y-0 active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply btn bg-white text-ink-900 border border-hairline hover:bg-gray-50 hover:border-gray-300
+           hover:-translate-y-px active:translate-y-0 active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply btn bg-transparent text-ink-800 hover:bg-gray-100;
+  }
+
+  .btn-danger {
+    @apply btn bg-lost text-white hover:bg-red-600 hover:-translate-y-px active:translate-y-0;
+  }
+
+  .btn-success {
+    @apply btn bg-found text-white hover:bg-emerald-600 hover:-translate-y-px active:translate-y-0;
+  }
+
+  .btn-lg {
+    @apply px-6 py-3 text-base;
+  }
+
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+
+  /* Cards -------------------------------------------------------------- */
+  .card {
+    @apply bg-surface rounded-2xl border border-hairline shadow-card;
+  }
+
+  .card-hover {
+    @apply card transition-all duration-300 ease-snap hover:-translate-y-0.5 hover:shadow-card-hover hover:border-gray-300;
+  }
+
+  .card-pad {
+    @apply p-5 sm:p-6;
+  }
+
+  /* Forms -------------------------------------------------------------- */
+  .input-field {
+    @apply w-full rounded-lg border border-hairline bg-white px-4 py-2.5 text-sm text-ink-900
+           placeholder:text-gray-400 transition-all duration-200
+           focus:border-primary-500 focus:ring-2 focus:ring-primary-500/30 focus:outline-none
+           disabled:bg-gray-50 disabled:text-gray-500;
+  }
+
+  .input-field-error {
+    @apply border-lost focus:border-lost focus:ring-lost/30;
+  }
+
+  .input-label {
+    @apply mb-1.5 block text-sm font-medium text-ink-800;
+  }
+
+  .field-hint {
+    @apply mt-1.5 text-xs text-gray-500;
+  }
+
+  .field-error {
+    @apply mt-1.5 flex items-center gap-1 text-xs font-medium text-lost;
+  }
+
+  /* Badges / chips ----------------------------------------------------- */
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold;
+  }
+
+  .badge-lost {
+    @apply bg-red-50 text-lost ring-1 ring-inset ring-red-200;
+  }
+
+  .badge-found {
+    @apply bg-emerald-50 text-found ring-1 ring-inset ring-emerald-200;
+  }
+
+  .badge-available {
+    @apply bg-blue-50 text-primary-700 ring-1 ring-inset ring-blue-200;
+  }
+
+  .badge-claimed {
+    @apply bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-200;
+  }
+
+  .badge-returned {
+    @apply bg-teal-50 text-returned ring-1 ring-inset ring-teal-200;
+  }
+
+  .badge-neutral {
+    @apply bg-gray-100 text-gray-600 ring-1 ring-inset ring-gray-200;
+  }
+
+  /* Category pill ------------------------------------------------------ */
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-hairline bg-white px-4 py-2
+           text-sm font-medium text-ink-800 transition-all duration-200
+           hover:border-primary-300 hover:bg-primary-50 hover:text-primary-700
+           hover:-translate-y-px active:translate-y-0;
+  }
+
+  /* Skeleton ----------------------------------------------------------- */
+  .skeleton {
+    @apply relative overflow-hidden bg-gray-200/70 rounded-md;
+  }
+  .skeleton::after {
+    content: "";
+    @apply absolute inset-0;
+    background-image: linear-gradient(
+      90deg,
+      transparent 0,
+      rgba(255, 255, 255, 0.65) 50%,
+      transparent 100%
+    );
+    transform: translateX(-100%);
+    animation: shimmer 1.6s infinite;
+  }
+
+  /* Skip link ---------------------------------------------------------- */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100]
+           focus:rounded-lg focus:bg-ink-900 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  /* GPU-friendly reveal helper used by the <Reveal> component fallback */
+  .will-transform {
+    will-change: transform, opacity;
+  }
+}
+
+/* =========================================================================
+   Motion preferences — respect users who ask for less motion.
+   Everything rests and nothing stays hidden.
+   ========================================================================= */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .skeleton::after {
+    animation: none !important;
+  }
+}

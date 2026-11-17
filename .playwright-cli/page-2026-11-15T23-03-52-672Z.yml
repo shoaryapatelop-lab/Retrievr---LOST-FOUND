@@ -1,0 +1,208 @@
+- generic [ref=f4e3]:
+  - banner [ref=f4e4]:
+    - generic [ref=f4e6]:
+      - paragraph [ref=f4e7]: Lost something? Let's bring it back.
+      - navigation [ref=f4e8]:
+        - link "Report Lost" [ref=f4e9] [cursor=pointer]:
+          - /url: /report/lost
+        - link "Report Found" [ref=f4e10] [cursor=pointer]:
+          - /url: /report/found
+        - link "Browse Items" [ref=f4e11] [cursor=pointer]:
+          - /url: /search
+        - link "Admin" [ref=f4e12] [cursor=pointer]:
+          - /url: /admin
+    - generic [ref=f4e16]:
+      - generic [ref=f4e17]:
+        - link "R Retrievr" [ref=f4e18] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f4e19]: R
+          - generic [ref=f4e20]: Retrievr
+        - search [ref=f4e21]:
+          - generic [ref=f4e22]:
+            - combobox "Filter by category" [ref=f4e24]:
+              - option "All" [selected]
+              - option "Electronics"
+              - option "Documents"
+              - option "Accessories"
+              - option "Clothing"
+              - option "Bags"
+              - option "Keys"
+              - option "Other Items"
+            - textbox "Search items" [ref=f4e29]:
+              - /placeholder: Search lost or found items, brands, places…
+            - button "Search" [ref=f4e30] [cursor=pointer]
+        - generic [ref=f4e31]:
+          - button "Report item" [ref=f4e33] [cursor=pointer]
+          - link "Notifications" [ref=f4e38] [cursor=pointer]:
+            - /url: /dashboard
+          - button "P Priya" [ref=f4e43] [cursor=pointer]:
+            - generic [ref=f4e44]: P
+            - generic [ref=f4e45]: Priya
+      - generic [ref=f4e49]:
+        - link "All Items" [ref=f4e50] [cursor=pointer]:
+          - /url: /search
+        - button "Electronics" [ref=f4e52] [cursor=pointer]
+        - button "Documents" [ref=f4e53] [cursor=pointer]
+        - button "Accessories" [ref=f4e54] [cursor=pointer]
+        - button "Clothing" [ref=f4e55] [cursor=pointer]
+        - button "Bags" [ref=f4e56] [cursor=pointer]
+        - button "Keys" [ref=f4e57] [cursor=pointer]
+        - button "Other Items" [ref=f4e58] [cursor=pointer]
+  - main [ref=f4e59]:
+    - generic [ref=f4e143]:
+      - generic [ref=f4e144]:
+        - generic [ref=f4e145]:
+          - heading "Admin dashboard" [level=1] [ref=f4e146]
+          - paragraph [ref=f4e147]: Monitor activity, moderate reports and approve claims across Retrievr.
+        - link "View site" [ref=f4e149] [cursor=pointer]:
+          - /url: /
+      - generic [ref=f4e150]:
+        - complementary [ref=f4e151]:
+          - generic [ref=f4e152]:
+            - generic [ref=f4e154]:
+              - generic [ref=f4e155]: P
+              - generic [ref=f4e156]:
+                - paragraph [ref=f4e157]: Priya Nair
+                - paragraph [ref=f4e158]: Administrator
+            - navigation [ref=f4e159]:
+              - list [ref=f4e160]:
+                - listitem [ref=f4e161]:
+                  - button "Overview" [ref=f4e162] [cursor=pointer]
+                - listitem [ref=f4e169]:
+                  - button "Users 3" [ref=f4e170] [cursor=pointer]:
+                    - generic [ref=f4e171]:
+                      - text: Users
+                      - generic [ref=f4e177]: "3"
+                - listitem [ref=f4e178]:
+                  - button "Items 10" [ref=f4e179] [cursor=pointer]:
+                    - generic [ref=f4e180]:
+                      - text: Items
+                      - generic [ref=f4e185]: "10"
+                - listitem [ref=f4e186]:
+                  - button "Claims 2" [active] [ref=f4e187] [cursor=pointer]:
+                    - generic [ref=f4e189]:
+                      - text: Claims
+                      - generic [ref=f4e193]: "2"
+            - generic [ref=f4e194]:
+              - link "Profile settings" [ref=f4e195] [cursor=pointer]:
+                - /url: /profile
+              - link "Back to site" [ref=f4e196] [cursor=pointer]:
+                - /url: /
+        - main [ref=f4e197]:
+          - generic [ref=f4e198]:
+            - generic [ref=f4e199]:
+              - paragraph [ref=f4e207]: "3"
+              - paragraph [ref=f4e208]: Total users
+            - generic [ref=f4e209]:
+              - paragraph [ref=f4e218]: "4"
+              - paragraph [ref=f4e219]: Lost items
+            - generic [ref=f4e220]:
+              - paragraph [ref=f4e227]: "6"
+              - paragraph [ref=f4e228]: Found items
+            - generic [ref=f4e229]:
+              - paragraph [ref=f4e234]: "2"
+              - paragraph [ref=f4e235]: Pending claims
+          - generic [ref=f4e237]:
+            - generic [ref=f4e238]:
+              - heading "Pending claims" [level=2] [ref=f4e239]
+              - paragraph [ref=f4e240]: Review and approve or reject ownership claims.
+            - list [ref=f4e241]:
+              - listitem [ref=f4e242]:
+                - generic [ref=f4e243]:
+                  - generic [ref=f4e244]:
+                    - generic [ref=f4e245]:
+                      - link "Silver iPhone 14" [ref=f4e246] [cursor=pointer]:
+                        - /url: /item/2
+                      - generic [ref=f4e247]: Pending
+                    - paragraph [ref=f4e248]: Claimed by Meera Iyer
+                    - paragraph [ref=f4e249]: This is my iPhone. I can describe the lock screen photo and the cracked screen protector. My number is 98765 43210.
+                    - paragraph [ref=f4e250]: 11/16/2026, 4:22:37 AM
+                  - generic [ref=f4e251]:
+                    - button "Reject" [ref=f4e252] [cursor=pointer]
+                    - button "Approve" [ref=f4e256] [cursor=pointer]
+              - listitem [ref=f4e259]:
+                - generic [ref=f4e260]:
+                  - generic [ref=f4e261]:
+                    - generic [ref=f4e262]:
+                      - link "Brown leather wallet" [ref=f4e263] [cursor=pointer]:
+                        - /url: /item/4
+                      - generic [ref=f4e264]: Pending
+                    - paragraph [ref=f4e265]: Claimed by Meera Iyer
+                    - paragraph [ref=f4e266]: I lost this brown leather wallet near the bus stop yesterday evening. It has my student ID inside.
+                    - paragraph [ref=f4e267]: 11/16/2026, 4:22:37 AM
+                  - generic [ref=f4e268]:
+                    - button "Reject" [ref=f4e269] [cursor=pointer]
+                    - button "Approve" [ref=f4e273] [cursor=pointer]
+  - contentinfo [ref=f4e62]:
+    - generic [ref=f4e63]:
+      - generic [ref=f4e64]:
+        - generic [ref=f4e65]:
+          - link "R Retrievr" [ref=f4e66] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f4e67]: R
+            - generic [ref=f4e68]: Retrievr
+          - paragraph [ref=f4e69]: A smarter Lost & Found marketplace. Report belongings, discover found items, and reconnect with what's yours.
+          - generic [ref=f4e70]:
+            - link "Instagram" [ref=f4e71] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Email" [ref=f4e75] [cursor=pointer]:
+              - /url: mailto:support@retrievr.app
+        - generic [ref=f4e79]:
+          - heading "Quick Links" [level=3] [ref=f4e80]
+          - list [ref=f4e81]:
+            - listitem [ref=f4e82]:
+              - link "Report Lost Item" [ref=f4e83] [cursor=pointer]:
+                - /url: /report/lost
+            - listitem [ref=f4e84]:
+              - link "Report Found Item" [ref=f4e85] [cursor=pointer]:
+                - /url: /report/found
+            - listitem [ref=f4e86]:
+              - link "Browse Items" [ref=f4e87] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=f4e88]:
+              - link "My Dashboard" [ref=f4e89] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f4e90]:
+              - link "Account" [ref=f4e91] [cursor=pointer]:
+                - /url: /profile
+        - generic [ref=f4e92]:
+          - heading "Categories" [level=3] [ref=f4e93]
+          - list [ref=f4e94]:
+            - listitem [ref=f4e95]:
+              - link "Electronics" [ref=f4e96] [cursor=pointer]:
+                - /url: /search?category=Electronics
+            - listitem [ref=f4e97]:
+              - link "Documents" [ref=f4e98] [cursor=pointer]:
+                - /url: /search?category=Documents
+            - listitem [ref=f4e99]:
+              - link "Accessories" [ref=f4e100] [cursor=pointer]:
+                - /url: /search?category=Accessories
+            - listitem [ref=f4e101]:
+              - link "Clothing" [ref=f4e102] [cursor=pointer]:
+                - /url: /search?category=Clothing
+            - listitem [ref=f4e103]:
+              - link "Bags" [ref=f4e104] [cursor=pointer]:
+                - /url: /search?category=Bags
+            - listitem [ref=f4e105]:
+              - link "Keys" [ref=f4e106] [cursor=pointer]:
+                - /url: /search?category=Keys
+        - generic [ref=f4e107]:
+          - heading "Get in Touch" [level=3] [ref=f4e108]
+          - list [ref=f4e109]:
+            - listitem [ref=f4e110]: support@retrievr.app
+            - listitem [ref=f4e114]: Main Campus, Student Union
+          - generic [ref=f4e118]:
+            - generic [ref=f4e119]: Verified claims
+            - generic [ref=f4e123]: Reunite & reuse
+      - generic [ref=f4e131]:
+        - paragraph [ref=f4e132]: © 2026 Retrievr. All rights reserved.
+        - generic [ref=f4e133]:
+          - link "About" [ref=f4e134] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=f4e135] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy" [ref=f4e136] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f4e137] [cursor=pointer]:
+            - /url: /terms
+          - generic [ref=f4e138]: Lost & Found, reimagined

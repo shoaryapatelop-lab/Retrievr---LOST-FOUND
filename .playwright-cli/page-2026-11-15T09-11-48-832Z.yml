@@ -1,0 +1,180 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e6]:
+      - paragraph [ref=f3e7]: Lost something on campus? Let's bring it back.
+      - navigation [ref=f3e8]:
+        - link "Report Lost" [ref=f3e9] [cursor=pointer]:
+          - /url: /report/lost
+        - link "Report Found" [ref=f3e10] [cursor=pointer]:
+          - /url: /report/found
+        - link "Browse Items" [ref=f3e11] [cursor=pointer]:
+          - /url: /search
+    - generic [ref=f3e12]:
+      - generic [ref=f3e13]:
+        - link "R Retrievr" [ref=f3e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f3e15]: R
+          - generic [ref=f3e16]: Retrievr
+        - generic [ref=f3e18]:
+          - combobox "Category" [ref=f3e20]:
+            - option "All" [selected]
+            - option "Electronics"
+            - option "Documents"
+            - option "Accessories"
+            - option "Clothing"
+            - option "Bags"
+            - option "Keys"
+            - option "Other Items"
+          - textbox "Search lost or found items, brands, places…" [ref=f3e25]
+          - button "Search" [ref=f3e26] [cursor=pointer]
+        - generic [ref=f3e27]:
+          - link "Report Item" [ref=f3e28] [cursor=pointer]:
+            - /url: /report/found
+          - link "Log in" [ref=f3e31] [cursor=pointer]:
+            - /url: /login
+          - link "Sign up" [ref=f3e32] [cursor=pointer]:
+            - /url: /register
+      - generic [ref=f3e34]:
+        - link "All Items" [ref=f3e35] [cursor=pointer]:
+          - /url: /search
+        - button "Electronics" [ref=f3e36] [cursor=pointer]
+        - button "Documents" [ref=f3e37] [cursor=pointer]
+        - button "Accessories" [ref=f3e38] [cursor=pointer]
+        - button "Clothing" [ref=f3e39] [cursor=pointer]
+        - button "Bags" [ref=f3e40] [cursor=pointer]
+        - button "Keys" [ref=f3e41] [cursor=pointer]
+        - button "Other Items" [ref=f3e42] [cursor=pointer]
+  - main [ref=f3e43]:
+    - generic [ref=f3e44]:
+      - complementary [ref=f3e45]:
+        - link "R Retrievr" [ref=f3e47] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f3e48]: R
+          - generic [ref=f3e49]: Retrievr
+        - generic [ref=f3e50]:
+          - heading "Lost something? Let's bring it back." [level=2] [ref=f3e51]
+          - list [ref=f3e52]:
+            - listitem [ref=f3e53]:
+              - generic [ref=f3e58]: Search thousands of lost & found reports in one place.
+            - listitem [ref=f3e59]:
+              - generic [ref=f3e68]: Smart matching pairs lost items with found ones automatically.
+            - listitem [ref=f3e69]:
+              - generic [ref=f3e74]: Admin-verified claims keep every hand-off safe.
+        - paragraph [ref=f3e75]: Trusted by campus communities
+      - main [ref=f3e79]:
+        - generic [ref=f3e81]:
+          - heading "Create your account" [level=1] [ref=f3e82]
+          - generic [ref=f3e83]:
+            - text: Already registered?
+            - link "Sign in" [ref=f3e84] [cursor=pointer]:
+              - /url: /login
+          - generic [ref=f3e86]:
+            - generic [ref=f3e87]:
+              - generic [ref=f3e88]:
+                - generic [ref=f3e89]: First name
+                - textbox "First name" [ref=f3e90]
+              - generic [ref=f3e91]:
+                - generic [ref=f3e92]: Last name
+                - textbox "Last name" [ref=f3e93]
+            - generic [ref=f3e94]:
+              - generic [ref=f3e95]: Email address
+              - textbox "Email address" [ref=f3e97]:
+                - /placeholder: you@campus.edu
+            - generic [ref=f3e98]:
+              - generic [ref=f3e99]: Password
+              - generic [ref=f3e100]:
+                - textbox "Password" [ref=f3e101]:
+                  - /placeholder: At least 8 characters
+                - button "Show password" [ref=f3e102] [cursor=pointer]
+            - generic [ref=f3e106]:
+              - generic [ref=f3e107]: Confirm password
+              - textbox "Confirm password" [ref=f3e109]
+            - generic [ref=f3e110]:
+              - generic [ref=f3e111]: I am a
+              - combobox "I am a" [ref=f3e112]:
+                - option "Student" [selected]
+                - option "Admin"
+            - generic [ref=f3e113]:
+              - generic [ref=f3e114]:
+                - generic [ref=f3e115]: Roll number
+                - textbox "Roll number" [ref=f3e116]
+              - generic [ref=f3e117]:
+                - generic [ref=f3e118]: Department
+                - textbox "Department" [ref=f3e119]
+              - generic [ref=f3e120]:
+                - generic [ref=f3e121]: Contact number
+                - textbox "Contact number" [ref=f3e123]
+            - button "Create account" [ref=f3e124] [cursor=pointer]
+  - contentinfo [ref=f3e125]:
+    - generic [ref=f3e126]:
+      - generic [ref=f3e127]:
+        - generic [ref=f3e128]:
+          - generic [ref=f3e129]:
+            - generic [ref=f3e130]: R
+            - generic [ref=f3e131]: Retrievr
+          - paragraph [ref=f3e132]: A smarter Lost & Found marketplace. Report belongings, discover found items, and reconnect with what's yours.
+          - generic [ref=f3e133]:
+            - link "Social link" [ref=f3e134] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f3e137] [cursor=pointer]:
+              - /url: "#"
+            - link "Social link" [ref=f3e140] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f3e144]:
+          - heading "Quick Links" [level=3] [ref=f3e145]
+          - list [ref=f3e146]:
+            - listitem [ref=f3e147]:
+              - link "Report Lost Item" [ref=f3e148] [cursor=pointer]:
+                - /url: /report/lost
+            - listitem [ref=f3e149]:
+              - link "Report Found Item" [ref=f3e150] [cursor=pointer]:
+                - /url: /report/found
+            - listitem [ref=f3e151]:
+              - link "Browse Items" [ref=f3e152] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=f3e153]:
+              - link "My Dashboard" [ref=f3e154] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f3e155]:
+              - link "Account" [ref=f3e156] [cursor=pointer]:
+                - /url: /profile
+        - generic [ref=f3e157]:
+          - heading "Categories" [level=3] [ref=f3e158]
+          - list [ref=f3e159]:
+            - listitem [ref=f3e160]:
+              - link "Electronics" [ref=f3e161] [cursor=pointer]:
+                - /url: /search?category=Electronics
+            - listitem [ref=f3e162]:
+              - link "Documents" [ref=f3e163] [cursor=pointer]:
+                - /url: /search?category=Documents
+            - listitem [ref=f3e164]:
+              - link "Accessories" [ref=f3e165] [cursor=pointer]:
+                - /url: /search?category=Accessories
+            - listitem [ref=f3e166]:
+              - link "Clothing" [ref=f3e167] [cursor=pointer]:
+                - /url: /search?category=Clothing
+            - listitem [ref=f3e168]:
+              - link "Bags" [ref=f3e169] [cursor=pointer]:
+                - /url: /search?category=Bags
+            - listitem [ref=f3e170]:
+              - link "Keys" [ref=f3e171] [cursor=pointer]:
+                - /url: /search?category=Keys
+        - generic [ref=f3e172]:
+          - heading "Get in Touch" [level=3] [ref=f3e173]
+          - list [ref=f3e174]:
+            - listitem [ref=f3e175]: support@retrievr.app
+            - listitem [ref=f3e179]: +1-800-RETRIEVR
+            - listitem [ref=f3e182]: Main Campus, Student Union
+          - generic [ref=f3e186]:
+            - generic [ref=f3e187]: Verified claims
+            - generic [ref=f3e191]: Reunite & reuse
+      - generic [ref=f3e199]:
+        - paragraph [ref=f3e200]: © 2026 Retrievr. All rights reserved.
+        - generic [ref=f3e201]:
+          - link "Privacy" [ref=f3e202] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f3e203] [cursor=pointer]:
+            - /url: /terms
+          - link "FAQ" [ref=f3e204] [cursor=pointer]:
+            - /url: /faq
+          - generic [ref=f3e205]: Lost & Found, reimagined

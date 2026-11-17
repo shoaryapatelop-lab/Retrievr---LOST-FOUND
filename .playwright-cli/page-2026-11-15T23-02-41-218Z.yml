@@ -1,0 +1,290 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e6]:
+      - paragraph [ref=f3e7]: Lost something? Let's bring it back.
+      - navigation [ref=f3e8]:
+        - link "Report Lost" [ref=f3e9] [cursor=pointer]:
+          - /url: /report/lost
+        - link "Report Found" [ref=f3e10] [cursor=pointer]:
+          - /url: /report/found
+        - link "Browse Items" [ref=f3e11] [cursor=pointer]:
+          - /url: /search
+        - link "Admin" [ref=f3e194] [cursor=pointer]:
+          - /url: /admin
+    - generic [ref=f3e12]:
+      - generic [ref=f3e13]:
+        - link "R Retrievr" [ref=f3e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f3e15]: R
+          - generic [ref=f3e16]: Retrievr
+        - search [ref=f3e17]:
+          - generic [ref=f3e18]:
+            - combobox "Filter by category" [ref=f3e20]:
+              - option "All" [selected]
+              - option "Electronics"
+              - option "Documents"
+              - option "Accessories"
+              - option "Clothing"
+              - option "Bags"
+              - option "Keys"
+              - option "Other Items"
+            - textbox "Search items" [ref=f3e25]:
+              - /placeholder: Search lost or found items, brands, places…
+            - button "Search" [ref=f3e26] [cursor=pointer]
+        - generic [ref=f3e27]:
+          - button "Report item" [ref=f3e29] [cursor=pointer]
+          - link "Notifications" [ref=f3e198] [cursor=pointer]:
+            - /url: /dashboard
+          - button "P Priya" [ref=f3e203] [cursor=pointer]:
+            - generic [ref=f3e204]: P
+            - generic [ref=f3e205]: Priya
+      - generic [ref=f3e37]:
+        - link "All Items" [ref=f3e38] [cursor=pointer]:
+          - /url: /search
+        - button "Electronics" [ref=f3e40] [cursor=pointer]
+        - button "Documents" [ref=f3e41] [cursor=pointer]
+        - button "Accessories" [ref=f3e42] [cursor=pointer]
+        - button "Clothing" [ref=f3e43] [cursor=pointer]
+        - button "Bags" [ref=f3e44] [cursor=pointer]
+        - button "Keys" [ref=f3e45] [cursor=pointer]
+        - button "Other Items" [ref=f3e46] [cursor=pointer]
+  - main [ref=f3e47]:
+    - generic [ref=f3e208]:
+      - generic [ref=f3e210]:
+        - generic [ref=f3e211]:
+          - generic [ref=f3e212]: Campus Lost & Found, reimagined
+          - heading [level=1] [ref=f3e215]:
+            - text: Every lost item deserves a
+            - generic [ref=f3e216]: second chance.
+          - paragraph [ref=f3e219]: Report what you've lost, list what you've found, and let smart matching reunite belongings with their owners — fast.
+          - search [ref=f3e220]:
+            - generic [ref=f3e221]:
+              - textbox "Search lost or found items" [ref=f3e226]:
+                - /placeholder: Search by item, brand, or location…
+              - button "Search" [ref=f3e227] [cursor=pointer]
+          - generic [ref=f3e228]:
+            - generic [ref=f3e229]: "Popular:"
+            - link "Electronics" [ref=f3e230] [cursor=pointer]:
+              - /url: /search?category=Electronics
+            - link "Keys" [ref=f3e231] [cursor=pointer]:
+              - /url: /search?category=Keys
+            - link "Bags" [ref=f3e232] [cursor=pointer]:
+              - /url: /search?category=Bags
+            - link "Documents" [ref=f3e233] [cursor=pointer]:
+              - /url: /search?category=Documents
+          - generic [ref=f3e234]:
+            - generic [ref=f3e235]: Admin-verified claims
+            - generic [ref=f3e239]: Smart matching
+            - generic [ref=f3e243]: Free to use
+        - generic [ref=f3e252]:
+          - generic [ref=f3e253]:
+            - generic [ref=f3e254]: LOST
+            - paragraph [ref=f3e261]: Keys with red tag
+            - paragraph [ref=f3e262]: Library · 2h ago
+          - generic [ref=f3e263]:
+            - generic [ref=f3e264]: FOUND
+            - generic [ref=f3e272]:
+              - paragraph [ref=f3e273]: Black backpack
+              - generic [ref=f3e274]: Student Center · Today
+              - generic [ref=f3e278]:
+                - generic [ref=f3e279]: J
+                - generic [ref=f3e280]: Reported by Jamie
+                - generic [ref=f3e281]: View
+          - generic [ref=f3e289]:
+            - paragraph [ref=f3e290]: It's a match!
+            - paragraph [ref=f3e291]: Owner notified
+          - paragraph [ref=f3e297]: 3 new matches
+      - generic [ref=f3e299]:
+        - generic [ref=f3e312]:
+          - paragraph [ref=f3e313]: "0"
+          - paragraph [ref=f3e314]: Items reported
+        - generic [ref=f3e323]:
+          - paragraph [ref=f3e324]: "0"
+          - paragraph [ref=f3e325]: Lost reports
+        - generic [ref=f3e332]:
+          - paragraph [ref=f3e333]: "0"
+          - paragraph [ref=f3e334]: Found reports
+        - generic [ref=f3e344]:
+          - paragraph [ref=f3e345]: "0"
+          - paragraph [ref=f3e346]: Reunited
+      - generic [ref=f3e348]:
+        - generic [ref=f3e349]:
+          - generic [ref=f3e350]:
+            - generic [ref=f3e351]: Browse
+            - heading "Browse by category" [level=2] [ref=f3e352]
+            - paragraph [ref=f3e353]: Jump straight to the kind of item you lost or found.
+          - link "View all items" [ref=f3e354] [cursor=pointer]:
+            - /url: /search
+        - generic [ref=f3e357]:
+          - link "Electronics" [ref=f3e359] [cursor=pointer]:
+            - /url: /search?category=Electronics
+          - link "Documents" [ref=f3e365] [cursor=pointer]:
+            - /url: /search?category=Documents
+          - link "Accessories" [ref=f3e372] [cursor=pointer]:
+            - /url: /search?category=Accessories
+          - link "Clothing" [ref=f3e382] [cursor=pointer]:
+            - /url: /search?category=Clothing
+          - link "Bags" [ref=f3e388] [cursor=pointer]:
+            - /url: /search?category=Bags
+          - link "Keys" [ref=f3e396] [cursor=pointer]:
+            - /url: /search?category=Keys
+      - generic [ref=f3e404]:
+        - generic [ref=f3e406]:
+          - generic [ref=f3e414]:
+            - heading "Report a lost item" [level=3] [ref=f3e415]
+            - paragraph [ref=f3e416]: Can't find something? Tell the community and let matching do the work.
+          - link "Report lost" [ref=f3e417] [cursor=pointer]:
+            - /url: /report/lost
+        - generic [ref=f3e419]:
+          - generic [ref=f3e425]:
+            - heading "Report a found item" [level=3] [ref=f3e426]
+            - paragraph [ref=f3e427]: Found something? List it here and help reunite it with its owner.
+          - link "Report found" [ref=f3e428] [cursor=pointer]:
+            - /url: /report/found
+      - generic [ref=f3e430]:
+        - generic [ref=f3e431]:
+          - generic [ref=f3e432]:
+            - generic [ref=f3e433]: Latest
+            - heading "Recently reported" [level=2] [ref=f3e434]
+            - paragraph [ref=f3e435]: The newest lost and found items across the community.
+          - generic [ref=f3e436]:
+            - tablist "Filter by type" [ref=f3e437]:
+              - tab "All" [selected] [ref=f3e438] [cursor=pointer]
+              - tab "Lost" [ref=f3e439] [cursor=pointer]
+              - tab "Found" [ref=f3e440] [cursor=pointer]
+            - link "Browse all" [ref=f3e441] [cursor=pointer]:
+              - /url: /search
+        - generic [ref=f3e446]:
+          - heading "No reports here yet" [level=3] [ref=f3e454]
+          - paragraph [ref=f3e455]: When someone reports a lost or found item, it will appear here. Be the first to post.
+          - generic [ref=f3e456]:
+            - link "Report lost" [ref=f3e457] [cursor=pointer]:
+              - /url: /report/lost
+            - link "Report found" [ref=f3e458] [cursor=pointer]:
+              - /url: /report/found
+      - generic [ref=f3e460]:
+        - generic [ref=f3e461]:
+          - generic [ref=f3e462]: How it works
+          - heading "Three steps from lost to found" [level=2] [ref=f3e463]
+          - paragraph [ref=f3e464]: No posters, no group chats. Just a clear path back to what's yours.
+        - generic [ref=f3e465]:
+          - generic [ref=f3e467]:
+            - generic [ref=f3e468]: "01"
+            - heading "Report the item" [level=3] [ref=f3e477]
+            - paragraph [ref=f3e478]: Post a lost or found item with photos, category, location, and a description in under a minute.
+          - generic [ref=f3e480]:
+            - generic [ref=f3e481]: "02"
+            - heading "Smart matching" [level=3] [ref=f3e487]
+            - paragraph [ref=f3e488]: Our matching engine pairs lost and found reports so likely matches surface instantly.
+          - generic [ref=f3e490]:
+            - generic [ref=f3e491]: "03"
+            - heading "Claim & reunite" [level=3] [ref=f3e497]
+            - paragraph [ref=f3e498]: Submit a claim, an admin verifies ownership, and the item is safely returned.
+      - generic [ref=f3e500]:
+        - generic [ref=f3e501]:
+          - generic [ref=f3e502]: Community
+          - heading "Reunions, in their words" [level=2] [ref=f3e503]
+          - paragraph [ref=f3e504]: Students and admins on what it feels like to bring something back.
+        - generic [ref=f3e505]:
+          - figure "A Ananya R. Student" [ref=f3e507]:
+            - blockquote [ref=f3e519]: “I lost my wallet with my entire semester inside. I posted it at lunch and had a match before dinner. Retrievr genuinely works.”
+            - generic [ref=f3e520]:
+              - generic [ref=f3e521]: A
+              - generic [ref=f3e522]:
+                - paragraph [ref=f3e523]: Ananya R.
+                - paragraph [ref=f3e524]: Student
+          - figure "M Marcus L. Student" [ref=f3e526]:
+            - blockquote [ref=f3e538]: “Found an airpods case on the library steps. Two minutes to report, and the owner was notified automatically. Ridiculously easy.”
+            - generic [ref=f3e539]:
+              - generic [ref=f3e540]: M
+              - generic [ref=f3e541]:
+                - paragraph [ref=f3e542]: Marcus L.
+                - paragraph [ref=f3e543]: Student
+          - figure "P Priya S. Campus Admin" [ref=f3e545]:
+            - blockquote [ref=f3e557]: “As an admin I can actually see every claim in one place and verify ownership properly. It makes hand-offs safe and fair.”
+            - generic [ref=f3e558]:
+              - generic [ref=f3e559]: P
+              - generic [ref=f3e560]:
+                - paragraph [ref=f3e561]: Priya S.
+                - paragraph [ref=f3e562]: Campus Admin
+      - generic [ref=f3e567]:
+        - heading "Ready to bring it back?" [level=2] [ref=f3e568]
+        - paragraph [ref=f3e569]: Join a community that turns lost belongings into happy reunions. It takes less than a minute to post.
+        - generic [ref=f3e570]:
+          - link "Create free account" [ref=f3e571] [cursor=pointer]:
+            - /url: /register
+          - link "Report an item" [ref=f3e572] [cursor=pointer]:
+            - /url: /report/found
+  - contentinfo [ref=f3e114]:
+    - generic [ref=f3e115]:
+      - generic [ref=f3e116]:
+        - generic [ref=f3e117]:
+          - link "R Retrievr" [ref=f3e118] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f3e119]: R
+            - generic [ref=f3e120]: Retrievr
+          - paragraph [ref=f3e121]: A smarter Lost & Found marketplace. Report belongings, discover found items, and reconnect with what's yours.
+          - generic [ref=f3e122]:
+            - link "Instagram" [ref=f3e123] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Email" [ref=f3e127] [cursor=pointer]:
+              - /url: mailto:support@retrievr.app
+        - generic [ref=f3e131]:
+          - heading "Quick Links" [level=3] [ref=f3e132]
+          - list [ref=f3e133]:
+            - listitem [ref=f3e134]:
+              - link "Report Lost Item" [ref=f3e135] [cursor=pointer]:
+                - /url: /report/lost
+            - listitem [ref=f3e136]:
+              - link "Report Found Item" [ref=f3e137] [cursor=pointer]:
+                - /url: /report/found
+            - listitem [ref=f3e138]:
+              - link "Browse Items" [ref=f3e139] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=f3e140]:
+              - link "My Dashboard" [ref=f3e141] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f3e142]:
+              - link "Account" [ref=f3e143] [cursor=pointer]:
+                - /url: /profile
+        - generic [ref=f3e144]:
+          - heading "Categories" [level=3] [ref=f3e145]
+          - list [ref=f3e146]:
+            - listitem [ref=f3e147]:
+              - link "Electronics" [ref=f3e148] [cursor=pointer]:
+                - /url: /search?category=Electronics
+            - listitem [ref=f3e149]:
+              - link "Documents" [ref=f3e150] [cursor=pointer]:
+                - /url: /search?category=Documents
+            - listitem [ref=f3e151]:
+              - link "Accessories" [ref=f3e152] [cursor=pointer]:
+                - /url: /search?category=Accessories
+            - listitem [ref=f3e153]:
+              - link "Clothing" [ref=f3e154] [cursor=pointer]:
+                - /url: /search?category=Clothing
+            - listitem [ref=f3e155]:
+              - link "Bags" [ref=f3e156] [cursor=pointer]:
+                - /url: /search?category=Bags
+            - listitem [ref=f3e157]:
+              - link "Keys" [ref=f3e158] [cursor=pointer]:
+                - /url: /search?category=Keys
+        - generic [ref=f3e159]:
+          - heading "Get in Touch" [level=3] [ref=f3e160]
+          - list [ref=f3e161]:
+            - listitem [ref=f3e162]: support@retrievr.app
+            - listitem [ref=f3e166]: Main Campus, Student Union
+          - generic [ref=f3e170]:
+            - generic [ref=f3e171]: Verified claims
+            - generic [ref=f3e175]: Reunite & reuse
+      - generic [ref=f3e183]:
+        - paragraph [ref=f3e184]: © 2026 Retrievr. All rights reserved.
+        - generic [ref=f3e185]:
+          - link "About" [ref=f3e186] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=f3e187] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy" [ref=f3e188] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f3e189] [cursor=pointer]:
+            - /url: /terms
+          - generic [ref=f3e190]: Lost & Found, reimagined

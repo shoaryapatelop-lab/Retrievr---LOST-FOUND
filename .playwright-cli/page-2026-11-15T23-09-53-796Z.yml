@@ -1,0 +1,377 @@
+- generic [ref=f12e3]:
+  - banner [ref=f12e4]:
+    - generic [ref=f12e6]:
+      - paragraph [ref=f12e7]: Lost something? Let's bring it back.
+      - navigation [ref=f12e8]:
+        - link "Report Lost" [ref=f12e9] [cursor=pointer]:
+          - /url: /report/lost
+        - link "Report Found" [ref=f12e10] [cursor=pointer]:
+          - /url: /report/found
+        - link "Browse Items" [ref=f12e11] [cursor=pointer]:
+          - /url: /search
+        - link "Admin" [ref=f12e194] [cursor=pointer]:
+          - /url: /admin
+    - generic [ref=f12e12]:
+      - generic [ref=f12e13]:
+        - link "R Retrievr" [ref=f12e14] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f12e15]: R
+          - generic [ref=f12e16]: Retrievr
+        - search [ref=f12e17]:
+          - generic [ref=f12e18]:
+            - combobox "Filter by category" [ref=f12e20]:
+              - option "All" [selected]
+              - option "Electronics"
+              - option "Documents"
+              - option "Accessories"
+              - option "Clothing"
+              - option "Bags"
+              - option "Keys"
+              - option "Other Items"
+            - textbox "Search items" [ref=f12e25]:
+              - /placeholder: Search lost or found items, brands, places…
+            - button "Search" [ref=f12e26] [cursor=pointer]
+        - generic [ref=f12e27]:
+          - button "Report item" [ref=f12e29] [cursor=pointer]
+          - link "Notifications" [ref=f12e198] [cursor=pointer]:
+            - /url: /dashboard
+          - button "P Priya" [ref=f12e203] [cursor=pointer]:
+            - generic [ref=f12e204]: P
+            - generic [ref=f12e205]: Priya
+      - generic [ref=f12e37]:
+        - link "All Items" [ref=f12e38] [cursor=pointer]:
+          - /url: /search
+        - button "Electronics" [ref=f12e40] [cursor=pointer]
+        - button "Documents" [ref=f12e41] [cursor=pointer]
+        - button "Accessories" [ref=f12e42] [cursor=pointer]
+        - button "Clothing" [ref=f12e43] [cursor=pointer]
+        - button "Bags" [ref=f12e44] [cursor=pointer]
+        - button "Keys" [ref=f12e45] [cursor=pointer]
+        - button "Other Items" [ref=f12e46] [cursor=pointer]
+  - main [ref=f12e47]:
+    - generic [ref=f12e208]:
+      - generic [ref=f12e210]:
+        - generic [ref=f12e211]:
+          - generic [ref=f12e212]: Campus Lost & Found, reimagined
+          - heading [level=1] [ref=f12e215]:
+            - text: Every lost item deserves a
+            - generic [ref=f12e216]: second chance.
+          - paragraph [ref=f12e219]: Report what you've lost, list what you've found, and let smart matching reunite belongings with their owners — fast.
+          - search [ref=f12e220]:
+            - generic [ref=f12e221]:
+              - textbox "Search lost or found items" [ref=f12e226]:
+                - /placeholder: Search by item, brand, or location…
+              - button "Search" [ref=f12e227] [cursor=pointer]
+          - generic [ref=f12e228]:
+            - generic [ref=f12e229]: "Popular:"
+            - link "Electronics" [ref=f12e230] [cursor=pointer]:
+              - /url: /search?category=Electronics
+            - link "Keys" [ref=f12e231] [cursor=pointer]:
+              - /url: /search?category=Keys
+            - link "Bags" [ref=f12e232] [cursor=pointer]:
+              - /url: /search?category=Bags
+            - link "Documents" [ref=f12e233] [cursor=pointer]:
+              - /url: /search?category=Documents
+          - generic [ref=f12e234]:
+            - generic [ref=f12e235]: Admin-verified claims
+            - generic [ref=f12e239]: Smart matching
+            - generic [ref=f12e243]: Free to use
+        - generic [ref=f12e252]:
+          - generic [ref=f12e253]:
+            - generic [ref=f12e254]: LOST
+            - paragraph [ref=f12e261]: Keys with red tag
+            - paragraph [ref=f12e262]: Library · 2h ago
+          - generic [ref=f12e263]:
+            - generic [ref=f12e264]: FOUND
+            - generic [ref=f12e272]:
+              - paragraph [ref=f12e273]: Black backpack
+              - generic [ref=f12e274]: Student Center · Today
+              - generic [ref=f12e278]:
+                - generic [ref=f12e279]: J
+                - generic [ref=f12e280]: Reported by Jamie
+                - generic [ref=f12e281]: View
+          - generic [ref=f12e289]:
+            - paragraph [ref=f12e290]: It's a match!
+            - paragraph [ref=f12e291]: Owner notified
+          - paragraph [ref=f12e297]: 3 new matches
+      - generic [ref=f12e299]:
+        - generic [ref=f12e312]:
+          - paragraph [ref=f12e313]: "0"
+          - paragraph [ref=f12e314]: Items reported
+        - generic [ref=f12e323]:
+          - paragraph [ref=f12e324]: "0"
+          - paragraph [ref=f12e325]: Lost reports
+        - generic [ref=f12e332]:
+          - paragraph [ref=f12e333]: "0"
+          - paragraph [ref=f12e334]: Found reports
+        - generic [ref=f12e344]:
+          - paragraph [ref=f12e345]: "0"
+          - paragraph [ref=f12e346]: Reunited
+      - generic [ref=f12e348]:
+        - generic [ref=f12e349]:
+          - generic [ref=f12e350]:
+            - generic [ref=f12e351]: Browse
+            - heading "Browse by category" [level=2] [ref=f12e352]
+            - paragraph [ref=f12e353]: Jump straight to the kind of item you lost or found.
+          - link "View all items" [ref=f12e354] [cursor=pointer]:
+            - /url: /search
+        - generic [ref=f12e357]:
+          - link "Electronics" [ref=f12e359] [cursor=pointer]:
+            - /url: /search?category=Electronics
+          - link "Documents" [ref=f12e365] [cursor=pointer]:
+            - /url: /search?category=Documents
+          - link "Accessories" [ref=f12e372] [cursor=pointer]:
+            - /url: /search?category=Accessories
+          - link "Clothing" [ref=f12e382] [cursor=pointer]:
+            - /url: /search?category=Clothing
+          - link "Bags" [ref=f12e388] [cursor=pointer]:
+            - /url: /search?category=Bags
+          - link "Keys" [ref=f12e396] [cursor=pointer]:
+            - /url: /search?category=Keys
+      - generic [ref=f12e404]:
+        - generic [ref=f12e406]:
+          - generic [ref=f12e414]:
+            - heading "Report a lost item" [level=3] [ref=f12e415]
+            - paragraph [ref=f12e416]: Can't find something? Tell the community and let matching do the work.
+          - link "Report lost" [ref=f12e417] [cursor=pointer]:
+            - /url: /report/lost
+        - generic [ref=f12e419]:
+          - generic [ref=f12e425]:
+            - heading "Report a found item" [level=3] [ref=f12e426]
+            - paragraph [ref=f12e427]: Found something? List it here and help reunite it with its owner.
+          - link "Report found" [ref=f12e428] [cursor=pointer]:
+            - /url: /report/found
+      - generic [ref=f12e430]:
+        - generic [ref=f12e431]:
+          - generic [ref=f12e432]:
+            - generic [ref=f12e433]: Latest
+            - heading "Recently reported" [level=2] [ref=f12e434]
+            - paragraph [ref=f12e435]: The newest lost and found items across the community.
+          - generic [ref=f12e436]:
+            - tablist "Filter by type" [ref=f12e437]:
+              - tab "All" [selected] [ref=f12e438] [cursor=pointer]
+              - tab "Lost" [ref=f12e439] [cursor=pointer]
+              - tab "Found" [ref=f12e440] [cursor=pointer]
+            - link "Browse all" [ref=f12e441] [cursor=pointer]:
+              - /url: /search
+        - generic [ref=f12e445]:
+          - link "No photo FOUND Bags Black Dell laptop bag Black laptop bag with a Dell sticker found near the library entrance. Central Library, Ground Floor Nov 14 A Reported by Aarav Sharma" [ref=f12e447] [cursor=pointer]:
+            - /url: /item/1
+            - generic [ref=f12e448]:
+              - generic [ref=f12e449]: No photo
+              - generic [ref=f12e458]: FOUND
+            - generic [ref=f12e461]:
+              - generic [ref=f12e462]: Bags
+              - heading "Black Dell laptop bag" [level=3] [ref=f12e464]
+              - paragraph [ref=f12e465]: Black laptop bag with a Dell sticker found near the library entrance.
+              - generic [ref=f12e466]:
+                - generic [ref=f12e467]: Central Library, Ground Floor
+                - generic [ref=f12e472]: Nov 14
+              - generic [ref=f12e477]:
+                - generic [ref=f12e478]: A
+                - generic [ref=f12e479]: Reported by Aarav Sharma
+          - link "No photo FOUND Electronics Claimed Silver iPhone 14 Silver iPhone 14 with a cracked screen protector found in the cafeteria. Student Cafeteria, Block C Nov 15 A Reported by Aarav Sharma" [ref=f12e484] [cursor=pointer]:
+            - /url: /item/2
+            - generic [ref=f12e485]:
+              - generic [ref=f12e486]: No photo
+              - generic [ref=f12e495]: FOUND
+            - generic [ref=f12e498]:
+              - generic [ref=f12e499]:
+                - generic [ref=f12e500]: Electronics
+                - generic [ref=f12e501]: Claimed
+              - heading "Silver iPhone 14" [level=3] [ref=f12e503]
+              - paragraph [ref=f12e504]: Silver iPhone 14 with a cracked screen protector found in the cafeteria.
+              - generic [ref=f12e505]:
+                - generic [ref=f12e506]: Student Cafeteria, Block C
+                - generic [ref=f12e511]: Nov 15
+              - generic [ref=f12e516]:
+                - generic [ref=f12e517]: A
+                - generic [ref=f12e518]: Reported by Aarav Sharma
+          - link "No photo FOUND Other Items Blue water bottle Blue Milton water bottle with a sticker of a rocket. Sports Ground, Court 2 Nov 15 A Reported by Aarav Sharma" [ref=f12e523] [cursor=pointer]:
+            - /url: /item/3
+            - generic [ref=f12e524]:
+              - generic [ref=f12e525]: No photo
+              - generic [ref=f12e534]: FOUND
+            - generic [ref=f12e537]:
+              - generic [ref=f12e538]: Other Items
+              - heading "Blue water bottle" [level=3] [ref=f12e540]
+              - paragraph [ref=f12e541]: Blue Milton water bottle with a sticker of a rocket.
+              - generic [ref=f12e542]:
+                - generic [ref=f12e543]: Sports Ground, Court 2
+                - generic [ref=f12e548]: Nov 15
+              - generic [ref=f12e553]:
+                - generic [ref=f12e554]: A
+                - generic [ref=f12e555]: Reported by Aarav Sharma
+          - link "No photo FOUND Bags Brown leather wallet Brown leather wallet containing a student ID card. Bus Stop near Gate 2 Nov 14 A Reported by Aarav Sharma" [ref=f12e560] [cursor=pointer]:
+            - /url: /item/4
+            - generic [ref=f12e561]:
+              - generic [ref=f12e562]: No photo
+              - generic [ref=f12e571]: FOUND
+            - generic [ref=f12e574]:
+              - generic [ref=f12e575]: Bags
+              - heading "Brown leather wallet" [level=3] [ref=f12e577]
+              - paragraph [ref=f12e578]: Brown leather wallet containing a student ID card.
+              - generic [ref=f12e579]:
+                - generic [ref=f12e580]: Bus Stop near Gate 2
+                - generic [ref=f12e585]: Nov 14
+              - generic [ref=f12e590]:
+                - generic [ref=f12e591]: A
+                - generic [ref=f12e592]: Reported by Aarav Sharma
+          - link "No photo FOUND Electronics Returned Casio scientific calculator Casio fx-991EX calculator found in Lecture Hall 204. Lecture Hall 204, Block A Nov 13 A Reported by Aarav Sharma" [ref=f12e597] [cursor=pointer]:
+            - /url: /item/5
+            - generic [ref=f12e598]:
+              - generic [ref=f12e599]: No photo
+              - generic [ref=f12e608]: FOUND
+            - generic [ref=f12e611]:
+              - generic [ref=f12e612]:
+                - generic [ref=f12e613]: Electronics
+                - generic [ref=f12e614]: Returned
+              - heading "Casio scientific calculator" [level=3] [ref=f12e616]
+              - paragraph [ref=f12e617]: Casio fx-991EX calculator found in Lecture Hall 204.
+              - generic [ref=f12e618]:
+                - generic [ref=f12e619]: Lecture Hall 204, Block A
+                - generic [ref=f12e624]: Nov 13
+              - generic [ref=f12e629]:
+                - generic [ref=f12e630]: A
+                - generic [ref=f12e631]: Reported by Aarav Sharma
+          - link "No photo FOUND Keys Set of three keys Three keys on a red keyring found in the parking lot. Faculty Parking, Gate 1 Nov 15 A Reported by Aarav Sharma" [ref=f12e636] [cursor=pointer]:
+            - /url: /item/6
+            - generic [ref=f12e637]:
+              - generic [ref=f12e638]: No photo
+              - generic [ref=f12e647]: FOUND
+            - generic [ref=f12e650]:
+              - generic [ref=f12e651]: Keys
+              - heading "Set of three keys" [level=3] [ref=f12e653]
+              - paragraph [ref=f12e654]: Three keys on a red keyring found in the parking lot.
+              - generic [ref=f12e655]:
+                - generic [ref=f12e656]: Faculty Parking, Gate 1
+                - generic [ref=f12e661]: Nov 15
+              - generic [ref=f12e666]:
+                - generic [ref=f12e667]: A
+                - generic [ref=f12e668]: Reported by Aarav Sharma
+      - generic [ref=f12e673]:
+        - generic [ref=f12e674]:
+          - generic [ref=f12e675]: How it works
+          - heading "Three steps from lost to found" [level=2] [ref=f12e676]
+          - paragraph [ref=f12e677]: No posters, no group chats. Just a clear path back to what's yours.
+        - generic [ref=f12e678]:
+          - generic [ref=f12e680]:
+            - generic [ref=f12e681]: "01"
+            - heading "Report the item" [level=3] [ref=f12e690]
+            - paragraph [ref=f12e691]: Post a lost or found item with photos, category, location, and a description in under a minute.
+          - generic [ref=f12e693]:
+            - generic [ref=f12e694]: "02"
+            - heading "Smart matching" [level=3] [ref=f12e700]
+            - paragraph [ref=f12e701]: Our matching engine pairs lost and found reports so likely matches surface instantly.
+          - generic [ref=f12e703]:
+            - generic [ref=f12e704]: "03"
+            - heading "Claim & reunite" [level=3] [ref=f12e710]
+            - paragraph [ref=f12e711]: Submit a claim, an admin verifies ownership, and the item is safely returned.
+      - generic [ref=f12e713]:
+        - generic [ref=f12e714]:
+          - generic [ref=f12e715]: Community
+          - heading "Reunions, in their words" [level=2] [ref=f12e716]
+          - paragraph [ref=f12e717]: Students and admins on what it feels like to bring something back.
+        - generic [ref=f12e718]:
+          - figure "A Ananya R. Student" [ref=f12e720]:
+            - blockquote [ref=f12e732]: “I lost my wallet with my entire semester inside. I posted it at lunch and had a match before dinner. Retrievr genuinely works.”
+            - generic [ref=f12e733]:
+              - generic [ref=f12e734]: A
+              - generic [ref=f12e735]:
+                - paragraph [ref=f12e736]: Ananya R.
+                - paragraph [ref=f12e737]: Student
+          - figure "M Marcus L. Student" [ref=f12e739]:
+            - blockquote [ref=f12e751]: “Found an airpods case on the library steps. Two minutes to report, and the owner was notified automatically. Ridiculously easy.”
+            - generic [ref=f12e752]:
+              - generic [ref=f12e753]: M
+              - generic [ref=f12e754]:
+                - paragraph [ref=f12e755]: Marcus L.
+                - paragraph [ref=f12e756]: Student
+          - figure "P Priya S. Campus Admin" [ref=f12e758]:
+            - blockquote [ref=f12e770]: “As an admin I can actually see every claim in one place and verify ownership properly. It makes hand-offs safe and fair.”
+            - generic [ref=f12e771]:
+              - generic [ref=f12e772]: P
+              - generic [ref=f12e773]:
+                - paragraph [ref=f12e774]: Priya S.
+                - paragraph [ref=f12e775]: Campus Admin
+      - generic [ref=f12e780]:
+        - heading "Ready to bring it back?" [level=2] [ref=f12e781]
+        - paragraph [ref=f12e782]: Join a community that turns lost belongings into happy reunions. It takes less than a minute to post.
+        - generic [ref=f12e783]:
+          - link "Create free account" [ref=f12e784] [cursor=pointer]:
+            - /url: /register
+          - link "Report an item" [ref=f12e785] [cursor=pointer]:
+            - /url: /report/found
+  - contentinfo [ref=f12e114]:
+    - generic [ref=f12e115]:
+      - generic [ref=f12e116]:
+        - generic [ref=f12e117]:
+          - link "R Retrievr" [ref=f12e118] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f12e119]: R
+            - generic [ref=f12e120]: Retrievr
+          - paragraph [ref=f12e121]: A smarter Lost & Found marketplace. Report belongings, discover found items, and reconnect with what's yours.
+          - generic [ref=f12e122]:
+            - link "Instagram" [ref=f12e123] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link "Email" [ref=f12e127] [cursor=pointer]:
+              - /url: mailto:support@retrievr.app
+        - generic [ref=f12e131]:
+          - heading "Quick Links" [level=3] [ref=f12e132]
+          - list [ref=f12e133]:
+            - listitem [ref=f12e134]:
+              - link "Report Lost Item" [ref=f12e135] [cursor=pointer]:
+                - /url: /report/lost
+            - listitem [ref=f12e136]:
+              - link "Report Found Item" [ref=f12e137] [cursor=pointer]:
+                - /url: /report/found
+            - listitem [ref=f12e138]:
+              - link "Browse Items" [ref=f12e139] [cursor=pointer]:
+                - /url: /search
+            - listitem [ref=f12e140]:
+              - link "My Dashboard" [ref=f12e141] [cursor=pointer]:
+                - /url: /dashboard
+            - listitem [ref=f12e142]:
+              - link "Account" [ref=f12e143] [cursor=pointer]:
+                - /url: /profile
+        - generic [ref=f12e144]:
+          - heading "Categories" [level=3] [ref=f12e145]
+          - list [ref=f12e146]:
+            - listitem [ref=f12e147]:
+              - link "Electronics" [ref=f12e148] [cursor=pointer]:
+                - /url: /search?category=Electronics
+            - listitem [ref=f12e149]:
+              - link "Documents" [ref=f12e150] [cursor=pointer]:
+                - /url: /search?category=Documents
+            - listitem [ref=f12e151]:
+              - link "Accessories" [ref=f12e152] [cursor=pointer]:
+                - /url: /search?category=Accessories
+            - listitem [ref=f12e153]:
+              - link "Clothing" [ref=f12e154] [cursor=pointer]:
+                - /url: /search?category=Clothing
+            - listitem [ref=f12e155]:
+              - link "Bags" [ref=f12e156] [cursor=pointer]:
+                - /url: /search?category=Bags
+            - listitem [ref=f12e157]:
+              - link "Keys" [ref=f12e158] [cursor=pointer]:
+                - /url: /search?category=Keys
+        - generic [ref=f12e159]:
+          - heading "Get in Touch" [level=3] [ref=f12e160]
+          - list [ref=f12e161]:
+            - listitem [ref=f12e162]: support@retrievr.app
+            - listitem [ref=f12e166]: Main Campus, Student Union
+          - generic [ref=f12e170]:
+            - generic [ref=f12e171]: Verified claims
+            - generic [ref=f12e175]: Reunite & reuse
+      - generic [ref=f12e183]:
+        - paragraph [ref=f12e184]: © 2026 Retrievr. All rights reserved.
+        - generic [ref=f12e185]:
+          - link "About" [ref=f12e186] [cursor=pointer]:
+            - /url: /about
+          - link "FAQ" [ref=f12e187] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy" [ref=f12e188] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f12e189] [cursor=pointer]:
+            - /url: /terms
+          - generic [ref=f12e190]: Lost & Found, reimagined
